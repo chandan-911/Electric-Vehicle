@@ -23,7 +23,6 @@
 - [Important Considerations](#important-considerations)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🌟 Overview
 
@@ -48,36 +47,36 @@ Electric Vehicles (EVs) are rapidly transforming the automotive industry, but cu
 
 ## ✨ Key Features
 
-### 🔮 Range Prediction
+### Range Prediction
 - Accurate range prediction using Random Forest Regressor
 - Considers model year, price, make, model, vehicle type, and location
 - Achieves 99.6% R² score with minimal error
 
-### 🤖 AI-Powered Insights
+### AI-Powered Insights
 - Intelligent vehicle recommendations using DeepSeek-V3.2
 - Contextual insights on vehicle competitiveness
 - Real-world usage recommendations
 - Automatic analysis of prediction results
 
-### 💬 Interactive Chat Assistant
+### Interactive Chat Assistant
 - Answer EV-related questions in real-time
 - Conversational interface with chat history
 - Expert-level guidance on EVs, batteries, and charging
 
-### 🎨 Professional UI/UX
+### Professional UI/UX
 - Modern gradient-based design
 - Interactive buttons with hover effects
 - Color-coded result boxes and information panels
 - Responsive multi-column layout
 - Preset vehicle examples for quick testing
 
-### 📊 Data Analysis & Visualization
+### Data Analysis & Visualization
 - Comprehensive exploratory data analysis
 - Distribution and correlation visualizations
 - Top manufacturer analysis
 - Range analysis with daily/weekly metrics
 
-## 🖼️ Demo & Screenshots
+## Demo & Screenshots
 
 ### Main Application Interface
 ![EV Range Predictor Interface](https://via.placeholder.com/800x400?text=EV+Range+Predictor+Interface)
@@ -88,7 +87,7 @@ Electric Vehicles (EVs) are rapidly transforming the automotive industry, but cu
 ### Interactive Chat Assistant
 ![Chat Assistant](https://via.placeholder.com/800x400?text=Chat+Assistant)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Electric-Vehicle/
@@ -108,7 +107,7 @@ Electric-Vehicle/
 └── week3.md                # Week 3 documentation (UI & AI Integration)
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend & UI
 - **Streamlit 1.51.0** - Web application framework
@@ -130,7 +129,7 @@ Electric-Vehicle/
 - **seaborn** - Statistical visualizations
 - **numpy 2.3.4** - Numerical computations
 
-## 📊 Model Performance
+## Model Performance
 
 Our Random Forest Regressor achieves exceptional performance:
 
@@ -153,7 +152,7 @@ Our Random Forest Regressor achieves exceptional performance:
 - max_depth: None, 15, 25
 - Optimized using GridSearchCV with 5-fold cross-validation
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -212,7 +211,7 @@ streamlit run streamlit_app.py
 
 The application will open in your browser at `http://localhost:8501`
 
-## 📚 Usage Guide
+## Usage Guide
 
 ### Basic Prediction Workflow
 
@@ -245,10 +244,10 @@ Type: BEV
 MSRP: $46,990
 State: CA
 
-✅ Predicted Range: 358.5 miles
+ Predicted Range: 358.5 miles
 ```
 
-## 🤖 AI Features
+## AI Features
 
 The application includes a comprehensive `EVAIAssistant` class with multiple AI capabilities:
 
@@ -277,7 +276,7 @@ The application includes a comprehensive `EVAIAssistant` class with multiple AI 
 - Feature and price comparisons
 - Use-case recommendations
 
-## 📊 Dataset Information
+## Dataset Information
 
 **Source:** Electric Vehicle Population Data
 
@@ -305,7 +304,7 @@ The application includes a comprehensive `EVAIAssistant` class with multiple AI 
 - Cleaned categorical columns
 - Standardized manufacturer and model names
 
-## 📅 Project Timeline
+## Project Timeline
 
 ### Week 1: Exploratory Data Analysis
 - ✅ Data loading and exploration
@@ -332,7 +331,7 @@ The application includes a comprehensive `EVAIAssistant` class with multiple AI 
 - ✅ Preset vehicle examples
 - ✅ Comprehensive documentation
 
-## ⚠️ Important Considerations
+## Important Considerations
 
 ### Range Prediction Accuracy
 
@@ -360,24 +359,7 @@ The predicted range can vary by ±15-25% based on:
 - Use AI insights as advisory guidance
 - Consult experts for technical decisions
 
-## 🚀 Future Enhancements
-
-### Planned Features
-
-- [ ] Historical range data and trends analysis
-- [ ] User profiles with saved vehicle configurations
-- [ ] Real-time market price comparisons
-- [ ] Charging network integration with nearby stations
-- [ ] Carbon footprint calculations
-- [ ] Multiple language support
-- [ ] Mobile app optimization
-- [ ] PDF report generation
-- [ ] Vehicle comparison tool
-- [ ] Real-time battery health monitoring
-- [ ] Integration with OBD-II devices
-- [ ] Weather-adjusted range predictions
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -394,17 +376,13 @@ Contributions are welcome! Please follow these steps:
 - Update documentation
 - Test thoroughly before submitting PR
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
+## Author
 
 **Chandan**
 - GitHub: [@chandan-911](https://github.com/chandan-911)
 - Project Link: [https://github.com/chandan-911/Electric-Vehicle](https://github.com/chandan-911/Electric-Vehicle)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Electric Vehicle Population dataset providers
 - HuggingFace for AI API infrastructure
@@ -412,7 +390,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - scikit-learn community for ML tools
 - DeepSeek AI for the powerful language model
 
-## 📞 Support
+## Support
 
 If you have any questions or issues, please:
 - Open an issue on GitHub
@@ -423,7 +401,7 @@ If you have any questions or issues, please:
 
 <div align="center">
 
-**Made with ❤️ by Chandan**
+**Made by Chandan**
 
 ⭐ Star this repository if you find it helpful!
 
