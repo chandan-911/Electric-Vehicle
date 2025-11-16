@@ -17,7 +17,7 @@ class EVAIAssistant:
     
     def __init__(self, api_key: Optional[str] = None):
         """Initialize the AI assistant with HuggingFace API"""
-        self.api_key = api_key or os.environ.get("HF_TOKEN")
+        self.api_key = os.getenv("HF_TOK")                  
         self.client = OpenAI(
             base_url="https://router.huggingface.co/v1",
             api_key=self.api_key,

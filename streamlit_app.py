@@ -124,7 +124,9 @@ st.markdown("""
 # INITIALIZE AI CLIENT
 @st.cache_resource
 def get_ai_client():
-    api_key = os.environ.get("HF_TOKEN")
+    api_key = os.getenv("HF_TOK")
+    if not api_key:
+        raise ValueError("HuggingFace API key not found. Please set HF_TOKEN in environment variables.")
     return OpenAI(
         base_url="https://router.huggingface.co/v1",
         api_key=api_key,
